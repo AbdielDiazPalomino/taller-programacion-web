@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
             modal.className = 'modal-overlay';
             modal.innerHTML = `
                 <div class="modal-content success-modal-content">
-                    <div class="success-icon"><i class="fas fa-check-circle"></i></div>
+
                     <h2>¡Pago realizado con éxito!</h2>
                     <p>Tu pedido ha sido registrado correctamente.<br>Pronto nos pondremos en contacto contigo.</p>
                     <button class="btn btn-primary" id="success-close-btn">Volver al Catálogo</button>
